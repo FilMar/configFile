@@ -60,6 +60,7 @@ alias gitu='git add . && git commit && git push'
 alias ls="ls --color=auto"
 alias la="ls -lah"
 alias vim="nvim"
+alias vimrc="vim $HOME/.config/nvim/init.vim"
 alias batInfo="sudo tlp-stat -b"
 
 

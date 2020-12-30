@@ -3,3 +3,4 @@
 nnoremap ff :Files<CR>
 nnoremap fw :Rg<CR>
 nnoremap fb :Buffers<CR>
+nnoremap fl :Lines<CR>

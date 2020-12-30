@@ -94,4 +94,12 @@ syntax on
 set noautoindent
 
 " togliere la selezione automatica della dir di lavoro
-let g:rooter_manual_only = 1
+" let g:rooter_manual_only = 1
+
+" auto set dir to current dir
+let g:rooter_silent_chdir = 1
+let g:rooter_change_directory_for_non_project_files = ''
+
+" visible space with dot
+set lcs+=space:·
+set list

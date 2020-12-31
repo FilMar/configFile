@@ -1,11 +1,12 @@
 " lista di plugin installati
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
-    silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
 call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    "" è importante scaricare yarn e nmp per installare i plugin aggiuntivi di coc
 Plug 'scrooloose/nerdTree'
 Plug 'tpope/vim-surround'
 Plug 'ctrlpvim/ctrlp.vim'

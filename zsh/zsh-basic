@@ -1,0 +1,33 @@
+## PERSONAL CONFIGURATION FOR ZSH SHELL
+
+DISABLE_MAGIC_FUNCTIONS=true
+ZSH_AUTOSUGGEST_MANUAL_REBIND=1
+COMPLETION_WAITING_DOTS=true
+DISABLE_UNTRACKED_FILES_DIRTY=true
+
+## Alias section 
+alias cp="cp -i"                                                # Confirm before overwriting something
+alias df='df -h'                                                # Human-readable sizes
+alias free='free -m'                                            # Show sizes in MB
+alias gitu='git add . && git commit && git push'
+alias ls="ls --color=auto"
+alias la="ls -lah"
+alias vim="nvim"
+alias vimrc="vim $HOME/.config/nvim/init.vim"
+alias batInfo="sudo tlp-stat -b"
+
+#### PERSONALE E FORSE TEMPORANEI ###
+export NEVERLANG_HOME=$HOME/Desktop/robaMia/progetti/unimi/tsp/neverlang2/trunk/src/Neverlang2_Java13/dist
+export PATH=${NEVERLANG_HOME}/bin:$PATH
+
+#xampp
+export XAMPP_HOME=/opt/lampp/
+export PATH=${XAMPP_HOME}:$PATH
+export PATH=${XAMPP_HOME}/bin:$PATH
+
+#phpcs
+export PHPCS_HOME=$HOME/.config/composer/vendor/squizlabs/php_codesniffer/
+export PATH=${PHPCS_HOME}/bin:$PATH
+
+#configfiles dir
+export CONFILE_HOME=$HOME/Desktop/robaMia/configFile/

@@ -19,7 +19,9 @@ Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-rooter'
 Plug 'kyoz/purify', {'rtp': 'vim'}
-
+Plug 'liuchengxu/vim-which-key'
+    "source 
+"" ################################################################FINE CONFIGURAZIONE PLUGINS##############################################
 call plug#end()
 
 

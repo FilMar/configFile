@@ -32,3 +32,5 @@ fi
 if [[ -e $HOME/Desktop/robaMia/emotion_projects/zsh-emotConf ]]; then
   source $HOME/Desktop/robaMia/emotion_projects/zsh-emotConf 
 fi
+
+

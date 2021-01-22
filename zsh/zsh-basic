@@ -15,6 +15,7 @@ alias la="ls -lah"
 alias vim="nvim"
 alias vimrc="vim $HOME/.config/nvim/init.vim"
 alias batInfo="sudo tlp-stat -b"
+alias python="python3"
 
 #### PERSONALE E FORSE TEMPORANEI ###
 export NEVERLANG_HOME=$HOME/Desktop/robaMia/progetti/unimi/tsp/neverlang2/trunk/src/Neverlang2_Java13/dist

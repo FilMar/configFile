@@ -15,11 +15,11 @@ Plug 'udalov/javap-vim'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
 Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
-Plug 'airblade/vim-rooter'
 Plug 'kyoz/purify', {'rtp': 'vim'}
-Plug 'liuchengxu/vim-which-key'
+""Plug 'liuchengxu/vim-which-key'
     "source 
 "" ################################################################FINE CONFIGURAZIONE PLUGINS##############################################
 call plug#end()

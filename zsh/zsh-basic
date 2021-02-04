@@ -32,5 +32,9 @@ export PATH=${XAMPP_HOME}/bin:$PATH
 export PHPCS_HOME=$HOME/.config/composer/vendor/squizlabs/php_codesniffer/
 export PATH=${PHPCS_HOME}/bin:$PATH
 
+#personal script
+export SCRIPT_HOME=$HOME/Desktop/robaMia/script
+export PATH=$SCRIPT_HOME:$PATH
+
 #configfiles dir
 export CONFILE_HOME=$HOME/Desktop/robaMia/configFile/

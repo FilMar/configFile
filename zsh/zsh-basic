@@ -13,6 +13,7 @@ alias gitu='git add . && git commit && git push'
 alias ls="ls --color=auto"
 alias la="ls -lah"
 alias vim="nvim"
+alias vide="openclose neovide"
 alias vimrc="vim $HOME/.config/nvim/init.vim"
 alias batInfo="sudo tlp-stat -b"
 alias python="python3"
@@ -39,3 +40,10 @@ export PATH=$SCRIPT_HOME:$PATH
 
 #configfiles dir
 export CONFILE_HOME=$HOME/Desktop/robaMia/configFile/
+
+#little script for close bash when gui app is lauched
+openclose() {
+    "$@" &
+    disown
+    exit
+}

@@ -57,6 +57,7 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu' 
 bindsym $mod+m exec pcmanfm
 bindsym Print exec --no-startup-id i3-scrot
+bindsym $mod+n exec terminal -e 'neovide'
 
 # focus_follows_mouse no
 
@@ -256,6 +257,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
+exec --no-startup-id syncthing
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
 exec --no-startup-id xautolock -time 10 -locker blurlock

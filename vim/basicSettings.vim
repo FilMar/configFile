@@ -2,6 +2,9 @@
 " mouse
 set mouse=a
 
+" set encoding di vim
+set encoding=UTF-8
+
 " nascondiamo la mode corrente sotto la statusbar
 set noshowmode
 
@@ -104,5 +107,14 @@ let g:rooter_change_directory_for_non_project_files = ''
 set lcs+=space:·
 set list
 
-" neovide settings: ####################################"
+" Start NERDTree when Vim is started without file arguments.
+autocmd VimEnter *
+    \   if !argc()
+    \ |   Startify
+    \ |   NERDTree
+    \ |   wincmd w
+    \ | endif
 
+" Exit Vim if NERDTree is the only window left.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
+\ quit | endif

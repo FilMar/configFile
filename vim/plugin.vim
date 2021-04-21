@@ -18,6 +18,10 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'vim-scripts/vim-gitgutter'
+"Plug 'ryanoasis/vim-devicons'
+
 Plug 'kyoz/purify', {'rtp': 'vim'}
 ""Plug 'liuchengxu/vim-which-key'
     "source 

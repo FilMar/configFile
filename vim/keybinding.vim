@@ -7,4 +7,5 @@ nnoremap fb :Buffers<CR>
 nnoremap fl :Lines<CR>
 nnoremap fc :Commits<CR>
 """""""""""""""""""""""
-
+""" NERD TREE """""""""
+nnoremap nt :NERDTree<CR>

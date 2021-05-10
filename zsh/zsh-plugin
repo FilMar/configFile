@@ -10,7 +10,7 @@
 
 
 #oh-my-zsh plugins
-plugins=(zsh-autosuggestions git docker docker-compose docker-machine autojump sudo zsh-syntax-highlighting dnf npm)
+plugins=(zsh-autosuggestions git docker docker-compose docker-machine autojump sudo zsh-syntax-highlighting dnf npm zsh-vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 

@@ -19,7 +19,7 @@ alias batInfo="sudo tlp-stat -b"
 alias python="python3"
 alias tree="tree -Ch"
 alias tree="tree -a"
-#alias docker="sudo docker"
+alias docker="sudo docker"
 
 #### PERSONALE E FORSE TEMPORANEI ###
 export NEVERLANG_HOME=$HOME/Desktop/robaMia/progetti/unimi/tsp/neverlang2/trunk/src/Neverlang2_Java13/dist
@@ -37,7 +37,7 @@ export PATH=${PHPCS_HOME}/bin:$PATH
 #personal script
 export SCRIPT_HOME=$HOME/Desktop/robaMia/script
 export PATH=$SCRIPT_HOME:$PATH
-
+export PATH=~/.docker/cli_plugins:$PATH
 #configfiles dir
 export CONFILE_HOME=$HOME/Desktop/robaMia/configFile/
 

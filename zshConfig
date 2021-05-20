@@ -17,7 +17,9 @@ export SHELL=/usr/bin/zsh
 #export PATH=$JAVA_HOME/bin:~/.npm-global/bin:$HOME/bin:/usr/local/bin:$PATH
 
 # Add exports from your profile
-source ~/.profile
+if [[ -e ~/.profile ]]; then
+    source ~/.profile
+fi
 
 
 # Source my zsh config
@@ -31,11 +33,6 @@ fi
 # Source for zsh plugins
 if [[ -e $HOME/Desktop/robaMia/configFile/zsh/zsh-plugin ]]; then
   source $HOME/Desktop/robaMia/configFile/zsh/zsh-plugin
-fi
-
-#----------------- configuration only for work --------------------------------
-if [[ -e $HOME/Desktop/robaMia/emotion_projects/zsh-emotConf ]]; then
-  source $HOME/Desktop/robaMia/emotion_projects/zsh-emotConf 
 fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

@@ -19,6 +19,8 @@ Plug 'airblade/vim-rooter'
 Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
 Plug 'kyoz/purify', {'rtp': 'vim'}
+Plug 'yaegassy/coc-nginx', {'do': 'yarn install --frozen-lockfile'}
+Plug 'chr4/nginx.vim'
 ""Plug 'liuchengxu/vim-which-key'
     "source 
 "" ################################################################FINE CONFIGURAZIONE PLUGINS##############################################

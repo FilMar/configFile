@@ -1,6 +1,6 @@
 ##PLUGINS
 
-# plugin for command auto-completion :
+# plugin for command auto-suggestions :
 ##### git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # plugin for syntax highlighting :
@@ -10,7 +10,20 @@
 
 
 #oh-my-zsh plugins
-plugins=(zsh-autosuggestions git docker docker-compose docker-machine autojump sudo zsh-syntax-highlighting dnf npm)
+plugins=(
+    fzf-tab
+    zsh-autosuggestions
+    git
+    docker
+    docker-compose
+    docker-machine
+    autojump
+    sudo
+    zsh-syntax-highlighting
+    dnf
+    npm
+    z
+)
 
 source $ZSH/oh-my-zsh.sh
 

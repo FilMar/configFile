@@ -20,9 +20,10 @@ COPY . ${CONFIG_FILE}
 RUN rm ${HOME}/.zshrc 
 RUN ln -s ${CONFIG_FILE}/zshConfig ${HOME}/.zshrc
 
-RUN git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH}//plugins/zsh-autosuggestions
-RUN git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH}/plugins/zsh-syntax-highlighting
-RUN git clone https://github.com/reobin/typewritten.git ${ZSH}/themes/typewritten
+RUN git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH}/custom/plugins/zsh-autosuggestions
+RUN git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+RUN git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH}/custom/plugins/zsh-syntax-highlighting
+RUN git clone https://github.com/reobin/typewritten.git ${ZSH}/custom/themes/typewritten
 
 
 CMD /bin/zsh

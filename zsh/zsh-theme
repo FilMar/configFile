@@ -1,5 +1,5 @@
 # theme : typewritten (fast and light theme) git clone https://github.com/reobin/typewritten.git "$HOME/.zsh/typewritten"
-ZSH_THEME="typewritten"
+ZSH_THEME="typewritten/typewritten"
 
 ## personal configuration:
 

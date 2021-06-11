@@ -17,8 +17,7 @@ alias vide="openclose neovide"
 alias vimrc="vim $HOME/.config/nvim/init.vim"
 alias batInfo="sudo tlp-stat -b"
 alias python="python3"
-alias tree="tree -Ch"
-alias tree="tree -a"
+alias tree="tree -C"
 #alias docker="sudo docker"
 
 #### PERSONALE E FORSE TEMPORANEI ###

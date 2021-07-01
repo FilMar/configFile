@@ -6,5 +6,5 @@ nnoremap fw :Rg<CR>
 nnoremap fb :Buffers<CR>
 nnoremap fl :Lines<CR>
 nnoremap fc :Commits<CR>
-"""""""""""""""""""""""
+
 

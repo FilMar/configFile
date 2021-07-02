@@ -37,7 +37,7 @@ set ignorecase
 set incsearch
 
 " mostriamo sempre la status bar
-set laststatus=2
+"set laststatus=2
 
 " disabilitando la modalità retro-compatibilità, si attivano
 " tutte le features di Vim (in opposizione a Vi)
@@ -103,6 +103,7 @@ let g:rooter_change_directory_for_non_project_files = ''
 " visible space with dot
 set lcs+=space:·
 set list
-
+" encoding
+set encoding=UTF-8
 " neovide settings: ####################################"
 

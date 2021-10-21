@@ -21,18 +21,24 @@ if [[ -e ~/.profile ]]; then
     source ~/.profile
 fi
 
+### variabili per dotfiles
+export CONFIG_HOME=$HOME/Desktop/robaMia/configFile/ 
+export VIM_FILES=$CONFIG_HOME/vimFiles
+export ZSH_FILES=$CONFIG_HOME/zshFiles
+export I3WM_FILES=$CONFIG_HOME/i3wmFiles
+
 
 # Source my zsh config
-if [[ -e $HOME/Desktop/robaMia/configFile/zsh/zsh-basic ]]; then
-  source $HOME/Desktop/robaMia/configFile/zsh/zsh-basic
+if [[ -e $ZSH_FILES/zsh/zsh-basic ]]; then
+  source $ZSH_FILES/zsh/zsh-basic
 fi
 # Source for zsh theme 
-if [[ -e $HOME/Desktop/robaMia/configFile/zsh/zsh-theme ]]; then
-  source $HOME/Desktop/robaMia/configFile/zsh/zsh-theme
+if [[ -e $ZSH_FILES/zsh/zsh-theme ]]; then
+  source $ZSH_FILES/zsh/zsh-theme
 fi
 # Source for zsh plugins
-if [[ -e $HOME/Desktop/robaMia/configFile/zsh/zsh-plugin ]]; then
-  source $HOME/Desktop/robaMia/configFile/zsh/zsh-plugin
+if [[ -e $ZSH_FILES/zsh/zsh-plugin ]]; then
+  source $ZSH_FILES/zsh/zsh-plugin
 fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

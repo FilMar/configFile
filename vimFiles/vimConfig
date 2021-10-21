@@ -1,0 +1,10 @@
+"########## my config
+"
+"pluginInstall:
+source $VIM_FILES/vim/plugin.vim 
+"modifiche base:
+source $VIM_FILES/vim/basicSettings.vim 
+"configurazione tasti:
+source $VIM_FILES/vim/keybinding.vim
+
+

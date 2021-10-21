@@ -28,7 +28,7 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -57,7 +57,6 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu' 
 bindsym $mod+m exec pcmanfm
 bindsym Print exec --no-startup-id i3-scrot
-bindsym $mod+n exec terminal -e 'neovide'
 
 # focus_follows_mouse no
 
